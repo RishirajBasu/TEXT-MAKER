@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TEXT-MAKER/static/css/main.073c9b0a.css",
+    "main.js": "/TEXT-MAKER/static/js/main.31df5f6a.js",
+    "static/js/787.8643ec9b.chunk.js": "/TEXT-MAKER/static/js/787.8643ec9b.chunk.js",
+    "index.html": "/TEXT-MAKER/index.html",
+    "main.073c9b0a.css.map": "/TEXT-MAKER/static/css/main.073c9b0a.css.map",
+    "main.31df5f6a.js.map": "/TEXT-MAKER/static/js/main.31df5f6a.js.map",
+    "787.8643ec9b.chunk.js.map": "/TEXT-MAKER/static/js/787.8643ec9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.31df5f6a.js"
+  ]
+}
