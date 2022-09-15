@@ -3,12 +3,12 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Textarea from './components/Textarea';
 import Alert from './components/Alert';
-import About from './components/About';
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+// import About from './components/About';
+// import {
+//   BrowserRouter,
+//   Routes,
+//   Route
+// } from "react-router-dom";
 function App() {
   const [mode, setMode] = useState("light");
   const [Modetype, setModetype] = useState(`${mode==='light'?'dark':'light'} Mode`)
@@ -66,15 +66,17 @@ function App() {
   }
   return (
     <>
-    <BrowserRouter>
+    {/* <BrowserRouter> */}
     <Navbar title="Text-Maker" mode={mode} toggle={toggle}/>
     <Alert alert={alert}/>
-    <Routes>
-      <Route exact path="/" element={<Textarea myStyle={myStyle} mode={mode} toggle={toggle} showAlert={showAlert}/>}>
-      </Route>
+    {/* <Routes> */}
+      {/* <Route exact path="/" element={ */}
+      <Textarea myStyle={myStyle} mode={mode} toggle={toggle} showAlert={showAlert}/>
+       {/* }> */}
+      {/* </Route>
           <Route exact path="/about" element={ <About  mode={mode} myStyle={myStyle}/>} />
     </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
     </>
   );
 }
